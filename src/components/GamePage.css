@@ -1,0 +1,207 @@
+.loading {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.background2 {
+    background-image: url('/images/dice.jpg');
+    width: 100%;
+    background-size: contain;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-repeat: repeat-y;
+}
+
+.pagebutton {
+    background: #faf1cb;
+    background-image: -webkit-linear-gradient(top, #d9b834, #ffffff);
+    background-image: -moz-linear-gradient(top, #d9b834, #ffffff);
+    background-image: -ms-linear-gradient(top, #d9b834, #ffffff);
+    background-image: -o-linear-gradient(top, #d9b834, #ffffff);
+    background-image: linear-gradient(to bottom, #d9b834, #ffffff);
+    -webkit-border-radius: 11;
+    -moz-border-radius: 11;
+    border-radius: 11px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 25px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: solid black 1px;
+}
+
+.pagebutton:hover {
+    background: #ff0000;
+    background-image: -webkit-linear-gradient(top, #ff7b00, #ffffff);
+    background-image: -moz-linear-gradient(top, #ff7b00, #ffffff);
+    background-image: -ms-linear-gradient(top, #ff7b00, #ffffff);
+    background-image: -o-linear-gradient(top, #ff7b00, #ffffff);
+    background-image: linear-gradient(to bottom, #ff7b00, #ffffff);
+    text-decoration: none;
+}
+
+.photo {
+    width: 300px;
+    height: auto;
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+}
+
+.text {
+    text-align: justify;
+    width: 85%;
+}
+
+.my-anchor-css-class {
+    text-decoration: none;
+    color: red;
+}
+
+.text h1 {
+    margin: 5%;
+    text-align: center;
+    font-size: 40px;
+    -webkit-text-stroke: 1px #ffa600;
+}
+
+.game-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:flex-start;
+    width: 40%;
+    height: 100%;
+    margin: 3%;
+}
+
+.game-details p {
+    padding: 5%;
+}
+
+.game-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3% auto;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:white;
+    width: 70%;
+    border-radius: 45px/50px;;
+    opacity: 0.9;
+}
+
+.content-css {
+    text-align: justify;
+}
+
+.GameList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: larger;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+}
+
+.GameButton {
+    background: #faf1cb;
+    background-image: -webkit-linear-gradient(top, #d9b834, #ffffff);
+    background-image: -moz-linear-gradient(top, #d9b834, #ffffff);
+    background-image: -ms-linear-gradient(top, #d9b834, #ffffff);
+    background-image: -o-linear-gradient(top, #d9b834, #ffffff);
+    background-image: linear-gradient(to bottom, #d9b834, #ffffff);
+    -webkit-border-radius: 11;
+    -moz-border-radius: 11;
+    border-radius: 11px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 30px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.GameButton:hover {
+    background: #ff0000;
+    background-image: -webkit-linear-gradient(top, #ff7b00, #ffffff);
+    background-image: -moz-linear-gradient(top, #ff7b00, #ffffff);
+    background-image: -ms-linear-gradient(top, #ff7b00, #ffffff);
+    background-image: -o-linear-gradient(top, #ff7b00, #ffffff);
+    background-image: linear-gradient(to bottom, #ff7b00, #ffffff);
+    text-decoration: none;
+}
+
+.search {
+    width: 30%;
+    margin-left: 13%;
+}
+
+@media screen and (max-width: 800px) {
+    .background2 {
+        margin: 20% 0%;
+    }
+    .game-container {
+        width: 90%;
+    }
+
+    .photo {
+        padding: 3%;
+        width: 100%;
+        border-radius: 50px;
+        margin:0%;
+        max-width: none;
+    }
+
+    .photo img {
+        border-radius: 10px;
+    }
+
+    .text {
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        max-width: none;
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .text p {
+        text-align: center;
+    }
+
+    .game-details {
+        text-align: center;
+        font-size: 20px;
+        margin: 0% auto 5% auto;
+        width: 100%;
+    }
+    .GameList {
+        width: 90%;
+        margin: auto;
+        justify-items: center;
+    }
+
+    .GameButton {
+        font-size: 30px;
+        width: 33%;
+        text-align: center;
+        padding: 3%;
+    }
+
+    .pagebutton {
+        padding: 10%;
+        margin: auto;
+        font-size: 25px;
+    }
+
+}

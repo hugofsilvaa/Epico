@@ -1,0 +1,154 @@
+.loading {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.background {
+  background-image: url("/images/dice.jpg");
+  width: 100%;
+  background-size:cover;
+  padding-top: 7%;
+  padding-bottom: 10%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-repeat:repeat-y;
+}
+
+.flexcontainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 3% auto;
+  width: 90%;
+  align-items: center;
+}
+
+
+
+.homepage {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  width: 75%;
+  margin: auto;
+  border-radius: 45px/50px;
+  opacity: 0.9;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.introduction {
+  width: 30%;
+}
+
+.flex {
+  display: flex;
+}
+
+.featuredcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 7%;
+  flex-wrap: wrap;
+  width:50%;
+}
+
+.featuredcontainer img {
+  padding: 3%;
+  max-width: 300px;
+  height: auto;
+  max-height: 400px;
+}
+
+.featuredcontainer h2 {
+  text-align: center;
+  padding: 3%;
+}
+
+.titlephoto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .homepage {
+    display: flex;
+    flex-direction: column;
+  }
+  .introduction{
+    width: 100%;
+    padding: 15px;
+  }
+  .featuredcontainer{
+    width: 100%;
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .background {
+    width: 90%;
+    margin: 10% 0%;
+  }
+
+  .homepage {
+    width: 90%;
+    margin: 15% auto;
+}
+
+  .introduction {
+    padding: 0%;
+    width: 100%;
+  }
+
+  .featuredcontainer {
+    padding: 15px;
+    margin: 0;
+    max-width: 100%;
+    align-items: center;
+  }
+
+  .titlephoto {
+    width: 100%;
+    margin: auto;
+  }
+
+  .photo{
+    max-width: 80%;
+    margin: auto;
+  }
+
+  .text{
+    max-width: 70%;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .text h2 {
+    margin: 10%;
+    text-align: center;
+    font-size: 40px;
+    -webkit-text-stroke: 1px #ffa600;
+  }
+  .game-details{
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+.flexcontainer {
+  display: flex;
+  flex-direction: column;
+} 
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+}

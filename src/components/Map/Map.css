@@ -1,0 +1,146 @@
+.introcontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.introcontainer h2 {
+  font-size: 30px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: justify;
+  background: white;
+  opacity: 0.9;
+  border-radius: 20px;
+  width: 50%;
+  text-align: center;
+}
+
+.intro {
+  width: 70%;
+  margin: auto;
+  display: flex;
+}
+.intro p {
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+  text-align: justify;
+  background: white;
+  opacity: 0.9;
+  border-radius: 20px;
+  width: 50%;
+}
+
+.intro p::before {
+  content: '\27A1';
+  padding: 10px;
+}
+
+.suggestion {
+  font-size: 20px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: justify;
+  background: white;
+  opacity: 0.9;
+  border-radius: 20px;
+  width: 60%;
+  text-align: center;
+}
+
+.map {
+  width: 50%;
+  height: auto;
+}
+
+.leaflet-container {
+  width: 70vw;
+  height: 65vh;
+  margin: auto;
+  border: solid black;
+  border-radius: 30px;
+}
+
+.images {
+  margin-left: 50%;
+  transform: translate(-50%);
+  width: 200px;
+  height: 200px;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.card-text a {
+  text-decoration: none;
+  color: black;
+}
+
+.card-text a:hover {
+  color: green;
+}
+
+.leaflet-popup-content-wrapper {
+  z-index: 100;
+  overflow: hidden;
+}
+
+.favorite {
+  font-size: 1.5rem;
+  border: none;
+  background-color: white;
+}
+
+.fav-button {
+  text-align: center;
+}
+
+.popup-card {
+  line-height: 15%;
+}
+
+@media screen and (max-width: 900px) {
+  .intro {
+    width: 90%;
+    margin: auto;
+  }
+
+  .leaflet-container {
+    width: 95vw;
+    height: 65vh;
+    margin: auto auto 50px auto;
+  }
+
+  .intro {
+    width: 90%;
+    margin: 40px 0 auto auto;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .intro {
+    flex-wrap: wrap;
+    margin: auto ;
+    width: auto;
+    justify-content: center;
+  }
+
+.intro p {
+    width: 100%;
+    margin: 5%;
+}
+
+.introcontainer h2 {
+    width: 90%;
+    margin: 5% auto;
+}
+
+  .introcontainer {
+    flex-wrap: wrap;
+  }
+
+  .suggestion {
+    margin: 10% auto 15% auto;
+  }
+}

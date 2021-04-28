@@ -1,0 +1,42 @@
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  align-items: center;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  bottom: 0;
+  height: 50px;
+}
+
+.social-icons {
+  display: inline-block;
+  padding: 10px;
+  transform: scale(0.8);
+  transition: 0.5s;
+}
+
+.social-icons:hover {
+  transform: scale(1) translateY(-10px);
+}
+
+.credits p {
+  color: white;
+}
+
+.bgg img {
+  width: 30px;
+  transform: scale(0.8);
+  transition: 0.5s;
+  margin-bottom: -4px;
+}
+
+.bgg img:hover {
+  transform: scale(1) translateY(-10px);
+}
+
+@media screen and (max-width: 900px) {
+  .credits {
+    display: none;
+  }
+}

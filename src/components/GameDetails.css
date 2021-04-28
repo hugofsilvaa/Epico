@@ -1,0 +1,106 @@
+.background {
+    background-image: url("/images/dice.jpg");
+    width: 100%;
+    background-size:cover;
+    padding-top: 7%;
+    padding-bottom: 10%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-repeat:repeat-y;;
+}
+
+.GameCard {
+    background: white;
+    width: 50%;
+    opacity: 0.9;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    border-radius: 30px;
+}
+
+.rating {
+    content: "\2B50";
+}
+
+.back {
+    margin: 5% auto;
+    width: 50%;
+}
+
+.GameCard p {
+    padding: 1%
+}
+
+.GameCard h2 {
+    text-align: center;
+    font-size: 40px;
+    -webkit-text-stroke: 1px #ffa600;
+    padding: 3% 0% 0% 0%;
+}
+
+.GameCard h3 {
+    font-size: 25px;
+    padding: 3%;
+}
+
+.GameCard img {
+    border-radius: 10px;
+}
+
+.backbutton {
+    background: #faf1cb;
+    background-image: -webkit-linear-gradient(top, #d9b834, #ffffff);
+    background-image: -moz-linear-gradient(top, #d9b834, #ffffff);
+    background-image: -ms-linear-gradient(top, #d9b834, #ffffff);
+    background-image: -o-linear-gradient(top, #d9b834, #ffffff);
+    background-image: linear-gradient(to bottom, #d9b834, #ffffff);
+    -webkit-border-radius: 11;
+    -moz-border-radius: 11;
+    border-radius: 11px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 25px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: solid black 1px;
+
+}
+
+.backbutton:hover {
+    background: #ff0000;
+    background-image: -webkit-linear-gradient(top, #ff7b00, #ffffff);
+    background-image: -moz-linear-gradient(top, #ff7b00, #ffffff);
+    background-image: -ms-linear-gradient(top, #ff7b00, #ffffff);
+    background-image: -o-linear-gradient(top, #ff7b00, #ffffff);
+    background-image: linear-gradient(to bottom, #ff7b00, #ffffff);
+    text-decoration: none;
+}
+
+.description {
+    text-align: justify;
+    padding: 5%
+}
+
+
+@media screen and (max-width: 800px) {
+    .GameCard {
+        width: 90%;
+    }
+    .GameCard img {
+        width: 90%;
+    }
+    .backbutton {
+        padding: 2%;
+        margin: 2% auto;
+    }
+    .description {
+        padding: 10%;
+        width: 90%;
+    }
+}

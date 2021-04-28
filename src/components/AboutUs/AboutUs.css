@@ -1,0 +1,182 @@
+.aboutus {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutus h1 {
+    text-align: center;
+    -webkit-text-stroke: 1px #ffa600;
+    font-size: 40px;
+}
+
+.profiles {
+    display: flex;
+    padding: 2%;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    opacity: 0.9;
+    width: 80%;
+    margin: auto;
+}
+
+.profiles2 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 2%;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    opacity: 0.9;
+    width: 80%;
+    margin: auto;
+}
+
+.profiles3 {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    opacity: 0.9;
+    width: 80%;
+    margin: auto;
+}
+
+.profiles4 {
+    display: flex;
+    padding: 2%;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+
+.profiles3 img {
+    height: 250px;
+    width: auto;
+    margin: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.profiles3 p {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    width: 80%;
+    text-align: justify;
+    margin: auto;
+}
+
+.profiles3 h2 {
+    text-align: center;
+    padding: 2%;
+}
+
+.profiles img {
+    height: 250px;
+    width: auto;
+    margin: auto 50px;
+
+}
+
+.profiles p {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    width: 80%;
+    text-align: justify;
+    margin: auto;
+}
+
+.profiles h2 {
+    text-align: center;
+    padding: 2%;
+}
+
+.profiles2 img {
+    height: 250px;
+    width: auto;
+    margin: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.profiles2 p {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    width: 80%;
+    text-align: justify;
+    margin: auto;
+}
+
+.profiles2 h2 {
+    text-align: center;
+    padding: 2%;
+}
+
+.profiles h1 {
+    margin: auto;
+    padding: 15% 5%;
+}
+
+.profilecontainer {
+    padding: 2%;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    opacity: 0.9;
+    width: 80%;
+    margin: auto;
+}
+
+@media screen and (max-width: 800px) {
+    .profiles {
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 10% 0%;
+    }
+
+    .profiles2 {
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 10% 0%;
+        flex-direction: column;
+    }
+
+    .profiles4 {
+        display: flex;
+        flex-direction: column;
+        padding: 10% 0%;
+    }
+
+    .profiles3 {
+        width: 100%;
+        padding: 0%;
+    }
+
+    .profiles4 img {
+        margin: 5% auto;
+    }
+
+    .profiles img {
+        margin: 5% auto;
+    }
+
+    .aboutus {
+        margin: 20% auto;
+        width: 90%;
+    }
+
+    .profiles p {
+        margin: 0% auto;
+        width: 90%;
+    }
+
+}
